@@ -1,2 +1,2 @@
 # residents
-a sandbox for sample residents' wab pages
+a sandbox for sample residents' web pages
