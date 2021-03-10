@@ -16,7 +16,7 @@ If you have not worked in management in a large organization you may nor be fami
 
 Two mailing list managers currently popular are https://googlegroups.io and https://groups.io
 
-There is a different variety of mailing list apps that are often used as sales and marketing tools. These include https://mailchimp.com and https://constantcontat.com. These are fine apps, but we should not touch them with a ten foot pole, because these apps are expensive, do not allow for replies and are not searchable.
+There is a different variety of mailing list apps that are often used as sales and marketing tools. These include https://mailchimp.com and https://constantcontact.com. These are fine apps, but we should not touch them with a ten foot pole, because these apps are expensive, do not allow for replies and are not searchable.
 
 The benefits of a "nice" mailing manager include:
 
