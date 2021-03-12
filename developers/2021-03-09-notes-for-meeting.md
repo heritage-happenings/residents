@@ -1,16 +1,5 @@
-# Heritage Residents Portal Developers
 
-## [2021-03-02 HotM Residents Portal Overview or Manifesto]( https://heretics-sf.github.io/residents/developers/#2021-03-02-overview-manifesto.md)
-
-
-## 2021-03-11
-
-* https://www.touchtown.com/
-
-* Sequioas: https://www.touchtown.us/home/of/sanfran/residentapps/mobile/#/login
-
-
-## 2021-03-09 Notes for Meeting
+# 2021-03-09 Notes for Meeting
 
 An upgrade that would improve quality of life at HotM is improved communication paper documents and Touch Town screen via SMS or email messages
 
@@ -84,13 +73,3 @@ Types of apps or modules that are likerly to be required
 * Voice interaction
 
 
-
-## Notes 2021-03-04
-
-private for new resident prospects
-
-touchtown needs update
-
-newb data ~ building needs better signage
-
-Alexa??

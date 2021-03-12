@@ -21,7 +21,6 @@ It is with this perspective of acceptance that we desire to build a web presence
 We seek to provide accessibility for all residents. In doing so, we must stand on the shoulders of giants. We must follow evidence-driven efforts. We must code in ways that permit us to follow evolving standards. We must become acutely aware of the various abilities of our constituencies. We must do our net to negotiate with our varies biases.
 
 
-
 ### https://en.wikipedia.org/wiki/WAI-ARIA
 
 >Web Accessibility Initiative – Accessible Rich Internet Applications (WAI-ARIA) is a technical specification published by the World Wide Web Consortium (W3C) that specifies how to increase the accessibility of web pages, in particular, dynamic content, and user interface components developed with Ajax, HTML, JavaScript, and related technologies.
