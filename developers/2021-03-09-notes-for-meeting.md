@@ -1,4 +1,3 @@
-
 # 2021-03-09 Notes for Meeting
 
 An upgrade that would improve quality of life at HotM is improved communication paper documents and Touch Town screen via SMS or email messages
