@@ -28,8 +28,6 @@ Questions to ask
 	* Can mailing list management be added to the job description of any staff or contract-worker? if not, then wait
 
 
-
-
 ## Page Types
 
 The following is a first pass at considering all the types of data that residents do or could receive.
@@ -65,10 +63,8 @@ The following is a first pass at considering all the types of data that resident
 
 ## Type of Apps to be Required
 
-Types of apps or modules that are likerly to be required
+Types of apps or modules that are likely to be required
 
 * Spreadsheets for menu characteristics
 * Sign-up management
 * Voice interaction
-
-
