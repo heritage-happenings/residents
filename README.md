@@ -5,8 +5,5 @@
 
 
 
-
-
-
 ## [2021-03-02 HotM Residents Portal Overview or Manifesto]( https://heretics-sf.github.io/residents/developers/2021-03-02-overview-manifesto.md)
 
