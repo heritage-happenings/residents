@@ -19,8 +19,8 @@ The goal is to produce a simple website with very basic navigation.
 
 It should readable by the built-in web browser that comes with
 
-* E-readers such as Kindles
-* Tablets such as the Ipad
+* E-readers such as the Amazon Kindle
+* Tablets such as the Apple Ipad
 * Laptops and desktops
 
 ***

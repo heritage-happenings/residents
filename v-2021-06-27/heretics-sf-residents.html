@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0" />
+	<meta name="description"
+		content="TooToo 2021 uses the GitHub API to provide access to all the current files hosted with GitHub Pages.">
+	<meta name="keywords" content="JavaScript,Markdown,GitHub,FOSS">
+	<meta name="date" content="2021-06-27">
+	<title>Heretics Happenings</title>
+
+	<!-- Copyright 2021 Theo Armour. MIT license -->
+	<link rel="stylesheet" href="https://pushme-pullyou.github.io/tootoo-2021/lib/style/style-2021-06-26.css">
+
+	<style>
+		:root {
+			--mnu-width: 20rem;
+			--main-hue: 0;
+			/* 0 to 360 0=red 120=green 240=blue */
+		}
+
+		li a,
+		p a,
+		button {
+			font-size: 1.3rem;
+		}
+
+		summary {
+			font-size: 150%;
+		}
+
+		#detNavMenu {
+			width: var(--mnu-width)
+		}
+
+		#divMainContent {
+			/* border: 0 solid blue; */
+			margin: 0;
+			max-width: 100%;
+			width: 100%;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<!-- https://github.com/showdownjs/showdown -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+
+	<script
+		src="https://pushme-pullyou.github.io/tootoo-2021/lib/fox-file-open-xhr/v-2021-06-24/fox-file-open-xhr.js"></script>
+
+	<script src="https://pushme-pullyou.github.io/tootoo-2021//lib/mnu-menu/v-2021-06-26/mnu-menu.js"></script>
+
+
+	<details id=detNavMenu class="gmd-4">
+
+		<summary id=sumNavMenu class="summary-nav gmd-1">show || hide menu</summary>
+
+		<nav id="navMenu" class="xxxgmd-2">
+
+			<div id=MNUdivHeader></div>
+
+			<!--
+			<div id=GORdivDetails></div>
+
+			<div id=GRVdivDetails></div>
+
+			<p><input id=inpPW class="full-width" placeholder="Input password (same as Heritage WiFi)" .></p>
+-->
+			<p><a href="#happenings/2021/2021-06-happenings.pdf">Happenings ~ June 2021</a><br>
+
+				<i>The monthly publication produced by Heritage residents</i>
+
+			</p>
+
+
+			<details>
+				<summary class="summary-primary gmd-1">Past Happenings</summary>
+
+				<p><i>PDF files of the Happenings vieawble online</i></p>
+				<p><a href="#happenings/2021/2021-05-happenings.pdf">Happenings
+						May 2021</a></p>
+				<p><a href="#happenings/2021/2021-04-happenings.pdf">Happenings
+						April 2021</a></p>
+				<p><a href="#happenings/2021/2021-03-happenings.pdf">Happenings
+						March 2021</a></p>
+				<p><a href="#happenings/2021/2021-02-happenings.pdf">Happenings
+						February 2021</a></p>
+				<p><a href="#happenings/2021/2021-01-happenings.pdf">Happenings
+						January 2021</a></p>
+				<p><a href="#happenings/2020/2020-10-happenings.pdf">Happenings
+						October 2020</a></p>
+
+			</details>
+
+			<details>
+				<summary class="summary-primary gmd-1">Dining Service Menus
+					<span id=spanMorrison ></span>
+				</summary>
+				<p>
+					2021 Second Quarter Food Menus
+				<ul>
+					<li><a href="#food-service/2021/2021-q2-nutrient-analysis-wk1.xlsx">Week
+							1 ~ May 30</a></li>
+					<li><a href="#food-service/2021/2021-q2-nutrient-analysis-wk2.xlsx">Week
+							2 ~ June 6 </a></li>
+					<li><a href="#food-service/2021/2021-q2-nutrient-analysis-wk3.xlsx">Week
+							3 ~ June 13</a></li>
+					<li><a href="#food-service/2021/2021-q2-nutrient-analysis-wk4.xlsx">Week
+							4 ~ June 20</a></li>
+
+				</ul>
+				</p>
+				<p>
+					2021 First Quarter Food Menus
+				<ul>
+					<li><a href="#food-service/2021/2021-nutrient-analysis-week-1.xlsx">Week
+							1</a></li>
+					<li><a href="#food-service/2021/2021-nutrient-analysis-week-2.xlsx">Week
+							2</a></li>
+					<li><a href="#food-service/2021/2021-nutrient-analysis-week-3.xlsx">Week
+							3</a></li>
+					<li><a href="#food-service/2021/2021-nutrient-analysis-week-4.xlsx">Week
+							4</a></li>
+				</ul>
+				</p>
+			</details>
+
+			<details>
+				<summary class="summary-primary gmd-1">Saturday Shorts <span id=spanMJ ></span></summary>
+				<p><i>The website links for the Saturday afternoon entertainment program </i></p>
+				<p><a
+						href="https://docs.google.com/presentation/d/1qOJVOWD5wxzLeCm5QaVSuAvYC7CAF10bYl8nAQbuCWY/edit?ts=60ce881c#slide=id.ge0afdf83fe_0_14">
+						Saturday Shorts June 19 2021</a></p>
+
+				<p><a
+						href="https://docs.google.com/presentation/d/1wmC3l9EpWiE6Juk-wvW52ORVMyxAdTR7u4fDrmVlyOQ/edit#slide=id.gc9ace9c165_0_0">Saturday
+						Shorts
+						March 27 2021</a></p>
+
+						<hr>
+			</details>
+
+			<p><a href="#2021-residents-manual.pdf">Residents Manual</a></p>
+
+			<p><button onclick=openFile()>Residents Directory</button></p>
+
+			<hr>
+
+			<p><i>A small start to providing useful links from around the Internet</i></p>
+
+			<p><a href="#books.md">Books available online</a></p>
+
+			<p><a href="#news.md">News sources</a></p>
+
+			<p><a href="#weather.md">Weather websites</a></p>
+
+			<p><a href="#test-cases/"></a></p>
+
+			<div id=MNUdivFooter></div>
+
+		</nav>
+
+	</details>
+
+
+	<main id=main>
+
+		<div id="divMainContent"></div>
+
+	</main>
+
+
+	<script>
+		const COR = {
+			user: "heretics-sf/",
+			repo: "residents",
+			branch: "main",
+			defaultFile: "README.md",
+			ignoreFolders: [],
+			path: "https://pushme-pullyou.github.io/tootoo-2021/", // //../../../",
+			version: document.head.querySelector( "[ name=date ]" ).content,
+			title: document.title ? document.title : location.href.split( "/" ).pop().slice( 0, - 5 ).replace( /-/g, " " ),
+			description: document.head.querySelector( "[ name=description ]" ).content
+		}
+
+		init();
+
+		function init() {
+
+			MNU.init( { description: "Published by the residents of the Heritage on the Marina - for our residents and our friends"});
+
+			MNUaSource.hidden = true;
+			MNUspnVersion.hidden = true;
+
+
+			// FOX = File Open XHR
+			// FOX.defaultFile = COR.defaultFile;
+			FOX.path = "../";
+			FOX.init( { path: FOX.path } );
+
+			FOX.onHashChange();
+
+
+			spanMorrison.innerHTML = `${ MNU.addInfoBox( "Tip of the hat to Morrison!" ) }`;
+			spanMJ.innerHTML = `${ MNU.addInfoBox( "Tip of the hat to Margaret!" ) }`;
+
+			// if running on server, keeps address bar pointed to latest dev
+
+			//if ( !location.hash && location.protocol === "https:" ) {
+			if ( location.protocol === "https:" ) {
+
+				window.history.pushState( "", "", "./" + location.hash );
+
+			}
+
+		}
+
+		function openFile() {
+
+			let sign = prompt( "Complete entering the password - same as the Heritage WiFi password", "red" );
+
+			if ( sign.toLowerCase() === "redbricks1" ) {
+				location.hash = "#2020-residents-directory.pdf";
+			}
+
+
+		}
+	</script>
+</body>
+
+</html>
