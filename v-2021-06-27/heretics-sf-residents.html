@@ -25,10 +25,18 @@
 		button {
 			font-size: 1.3rem;
 		}
+		h1 {font-size: 180%; }
+
+		p { margin: 0 0 0.5rem 0; }
+
 
 		summary {
 			font-size: 150%;
+			margin: 0 0 0.5rem 0;
 		}
+
+		.subheading { font-style:italic;
+		margin: 0 0 1.5rem 0; }
 
 		#detNavMenu {
 			width: var(--mnu-width)
@@ -63,35 +71,32 @@
 
 			<div id=MNUdivHeader></div>
 
-			<!--
-			<div id=GORdivDetails></div>
-
-			<div id=GRVdivDetails></div>
+<!--
 
 			<p><input id=inpPW class="full-width" placeholder="Input password (same as Heritage WiFi)" .></p>
 -->
-			<p><a href="#happenings/2021/2021-06-happenings.pdf">Happenings ~ June 2021</a><br>
-
-				<i>The monthly publication produced by Heritage residents</i>
-
+<hr>
+			<p>
+				<a href="#happenings/2021/2021-06-happenings.pdf"><i>Happenings</i> ~ June 2021</a>
 			</p>
-
+			<div class=subheading >Monthly publication produced by residents</div>
 
 			<details>
-				<summary class="summary-primary gmd-1">Past Happenings</summary>
+				<summary class="summary-primary gmd-1">Past <i>Happenings</i></summary>
 
-				<p><i>PDF files of the Happenings vieawble online</i></p>
-				<p><a href="#happenings/2021/2021-05-happenings.pdf">Happenings
+				<div class=subheading >PDF files of the <i>Happenings</i> viewable online</i></dov>
+
+				<p><a href="#happenings/2021/2021-05-happenings.pdf"><i>Happenings</i>
 						May 2021</a></p>
-				<p><a href="#happenings/2021/2021-04-happenings.pdf">Happenings
+				<p><a href="#happenings/2021/2021-04-happenings.pdf"><i>Happenings</i>
 						April 2021</a></p>
-				<p><a href="#happenings/2021/2021-03-happenings.pdf">Happenings
+				<p><a href="#happenings/2021/2021-03-happenings.pdf"><i>Happenings</i>
 						March 2021</a></p>
-				<p><a href="#happenings/2021/2021-02-happenings.pdf">Happenings
+				<p><a href="#happenings/2021/2021-02-happenings.pdf"><i>Happenings</i>
 						February 2021</a></p>
-				<p><a href="#happenings/2021/2021-01-happenings.pdf">Happenings
+				<p><a href="#happenings/2021/2021-01-happenings.pdf"><i>Happenings</i>
 						January 2021</a></p>
-				<p><a href="#happenings/2020/2020-10-happenings.pdf">Happenings
+				<p><a href="#happenings/2020/2020-10-happenings.pdf"><i>Happenings</i>
 						October 2020</a></p>
 
 			</details>
@@ -100,7 +105,8 @@
 				<summary class="summary-primary gmd-1">Dining Service Menus
 					<span id=spanMorrison ></span>
 				</summary>
-				<p>
+				<div class=subheading>Spreadsheets viewable online with nurient analysis for all the dishes to be served in a quarter</i></p>
+				<div>
 					2021 Second Quarter Food Menus
 				<ul>
 					<li><a href="#food-service/2021/2021-q2-nutrient-analysis-wk1.xlsx">Week
@@ -131,7 +137,7 @@
 
 			<details>
 				<summary class="summary-primary gmd-1">Saturday Shorts <span id=spanMJ ></span></summary>
-				<p><i>The website links for the Saturday afternoon entertainment program </i></p>
+				<div class=subheading>The website links for the Saturday afternoon entertainment program </div>
 				<p><a
 						href="https://docs.google.com/presentation/d/1qOJVOWD5wxzLeCm5QaVSuAvYC7CAF10bYl8nAQbuCWY/edit?ts=60ce881c#slide=id.ge0afdf83fe_0_14">
 						Saturday Shorts June 19 2021</a></p>
@@ -146,11 +152,15 @@
 
 			<p><a href="#2021-residents-manual.pdf">Residents Manual</a></p>
 
+			<div class=subheading>Guidelines and useful information </div>
+
 			<p><button onclick=openFile()>Residents Directory</button></p>
+
+			<div class=subheading>Phone numbers and addresses</div>
 
 			<hr>
 
-			<p><i>A small start to providing useful links from around the Internet</i></p>
+			<p style=margin-top:0 ><i>A small start to providing useful links from around the Internet</i></p>
 
 			<p><a href="#books.md">Books available online</a></p>
 
@@ -191,7 +201,7 @@
 
 		function init() {
 
-			MNU.init( { description: "Published by the residents of the Heritage on the Marina - for our residents and our friends"});
+			MNU.init( { description: "<p?>The online version!</p>Published by the residents of the Heritage on the Marina - for our residents and our friends"});
 
 			MNUaSource.hidden = true;
 			MNUspnVersion.hidden = true;

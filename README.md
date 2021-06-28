@@ -1,7 +1,8 @@
 # <a href="" >Heretics Happenings Online</a>
-_This is a website for residents of the [Heritage on the Marina]( https://https://heritageonthemarina.org/ ). It is maintained by the residents._
 
-## Content
+_This is a pre-release version of a website for residents of the [Heritage on the Marina]( https://https://heritageonthemarina.org/ ). It is maintained by the residents._
+
+## Content Goals
 
 This website provides
 
@@ -13,14 +14,14 @@ This website provides
 
 This site is a project to which anyone may contribute - please submit websites.
 
-## User Experience
+## User Experience Goals
 
 The goal is to produce a simple website with very basic navigation.
 
-It should readable by the built-in web browser that comes with
+It should readable by the built-in web browser that comes with:
 
 * E-readers such as the Amazon Kindle
-* Tablets such as the Apple Ipad
+* Tablets such as the Apple iPad
 * Laptops and desktops
 
 ***
