@@ -38,6 +38,7 @@
 			font-size: 150%;
 			margin: 0 0 0.5rem 0;
 		}
+
 	</style>
 
 </head>
@@ -50,7 +51,7 @@
 	<script
 		src="https://pushme-pullyou.github.io/tootoo-2021/lib/fox-file-open-xhr/v-2021-07-01/fox-file-open-xhr.js"></script>
 
-	<script src="https://pushme-pullyou.github.io/tootoo-2021//lib/mnu-menu/v-2021-06-29/mnu-menu.js"></script>
+	<script src="https://pushme-pullyou.github.io/tootoo-2021//lib/mnu-menu/v-2021-07-01/mnu-menu.js"></script>
 
 
 	<details id=detNavMenu class="gmd-4">
@@ -61,7 +62,7 @@
 
 			<div id=MNUdivHeader></div>
 
-			<!--
+<!--
 
 			<p><input id=inpPW class="full-width" placeholder="Input password (same as Heritage WiFi)" .></p>
 -->
@@ -111,13 +112,13 @@
 				2021 Second Session Menus
 				<ul>
 					<li><a href="#food-service/2021/2021-q2-nutrient-analysis-wk1.xlsx">Week
-							1 ~ June 27</a></li>
+							1 ~ May 30</a></li>
 					<li><a href="#food-service/2021/2021-q2-nutrient-analysis-wk2.xlsx">Week
-							2 ~ July 4 </a></li>
+							2 ~ June 6 </a></li>
 					<li><a href="#food-service/2021/2021-q2-nutrient-analysis-wk3.xlsx">Week
-							3 ~ July 17</a></li>
+							3 ~ June 13</a></li>
 					<li><a href="#food-service/2021/2021-q2-nutrient-analysis-wk4.xlsx">Week
-							4 ~ July 24</a></li>
+							4 ~ June 20</a></li>
 
 				</ul>
 				</p>
@@ -135,15 +136,13 @@
 				</ul>
 				</p>
 				<p>
-					<a href="#food-service/2021/Always Available Menu Nutrient Analysis.xlsx" target="_blank">Always
-						Available Menu Nutrient Analysis</a>
+					<a href="food-service/2021/Always Available Menu Nutrient Analysis.xlsx" target="_blank">Always Available Menu Nutrient Analysis</a>
 				</p>
 			</details>
 
 			<details>
 				<summary class="summary-primary gmd-1">Saturday Shorts <span id=spanMJ></span></summary>
-				<div class=subheading title="Click to view the programs">The website links for the Saturday afternoon
-					entertainment program </div>
+				<div class=subheading title="Click to view the programs">The website links for the Saturday afternoon entertainment program </div>
 				<p><a
 						href="https://docs.google.com/presentation/d/1qOJVOWD5wxzLeCm5QaVSuAvYC7CAF10bYl8nAQbuCWY/edit?ts=60ce881c#slide=id.ge0afdf83fe_0_14">
 						Saturday Shorts June 19 2021</a></p>
@@ -160,8 +159,7 @@
 
 			<div class=subheading>Guidelines and useful information </div>
 
-			<p><button onclick=openFile() title="Click to enter the password prior to viewing">Residents
-					Directory</button></p>
+			<p><button onclick=openFile() title="Click to enter the password prior to viewing" >Residents Directory</button></p>
 
 			<div class=subheading>Phone numbers and addresses</div>
 
@@ -198,9 +196,12 @@
 			branch: "main",
 			path: "https://heretics-sf.github.io/residents/", // //../../../",
 			defaultFile: "README.md",
-			urlSource: "https://github.com/heretics-sf/residents/",
-			urlAssets: "https://pushme-pullyou.github.io/tootoo-2021/",
 			ignoreFolders: [],
+			urlSource: "https://github.com/pushme-pullyou/tootoo-2021/",
+			urlAssets: "https://pushme-pullyou.github.io/tootoo-2021/",
+			iconGitHub: `<img src="https://pushme-pullyou.github.io/tootoo-2021/lib/assets/icons/mark-github.svg">`,
+			iconInfo: `<img class=infoImg src="https://pushme-pullyou.github.io/tootoo-2021/lib/assets/icons/noun_Information_585560.svg">`,
+			iconExternalFile: `<img src="https://pushme-pullyou.github.io/tootoo-2021/lib/assets/icons/icon-external-link.svg">`,
 			title: document.title ? document.title : location.href.split( "/" ).pop().slice( 0, - 5 ).replace( /-/g, " " ),
 			version: document.head.querySelector( "[ name=date ]" ).content,
 			description: document.head.querySelector( "[ name=description ]" ).content,
@@ -222,7 +223,7 @@
 			// FOX = File Open XHR
 			// FOX.defaultFile = COR.defaultFile;
 
-			FOX.init();
+			FOX.init( );
 
 			FOX.onHashChange();
 
