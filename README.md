@@ -1,6 +1,6 @@
 # <a href="" >Heretics Happenings Online</a>
 
-_This is a pre-release version of a website for residents of the [Heritage on the Marina]( https://https://heritageonthemarina.org/ ). It is maintained by the residents. It is a work-in-progress. Feel free to discuss anthing!_
+_This is a pre-release version of a website for residents of the [Heritage on the Marina]( https://https://heritageonthemarina.org/ ). It is maintained by the residents. This is a work-in-progress project. Feel free to discuss anything!_
 
 ## Content Goals
 
@@ -24,7 +24,7 @@ It should readable by the built-in web browser that comes with:
 * Tablets such as the Apple iPad
 * Laptops and desktops
 
-The primary initial concern is the efficacy and usability of the menu on the left side of the pagw.
+The primary initial concern is the efficacy and usability of the menu on the left side of the page.
 
 <!-- ***
 
